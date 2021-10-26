@@ -4,27 +4,23 @@ import math
 op   = input("Enter the operator: ")
 num1 = float(input("Enter the first number: "))
 
-
-
-
-
 if op == '+':
     num2 = float(input("Enter the second number: "))
     print(num1 + num2)
     
-if op == '-':
+elif op == '-':
     num2 = float(input("Enter the second number: "))
     print(num1 - num2)
     
-if op == '*':
+elif op == '*':
     num2 = float(input("Enter the second number: "))
     print(num1 * num2)
     
-if op == '/':
+elif op == '/':
     num2 = float(input("Enter the second number: "))
     print(num1 / num2)
 
-if op == 'sin':
+elif op == 'sin':
     print(math.sin(num1))
 
 elif op == 'cos':
@@ -41,9 +37,6 @@ elif op == 'floor':
 
 elif op == 'ceil':
     print(math.ceil(num1))
-
-
-
 else:
     print("Invalid operator")
     
